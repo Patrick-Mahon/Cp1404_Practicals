@@ -8,7 +8,7 @@ name = in_file.read().strip()
 print ("Your name is ", name)
 in_file.close()
 
-in_file = open("numbers.txt", "r")
+in_file = open("numbers", "r")
 num1 = int(in_file.readline())
 num2 = int(in_file.readline())
 print(num1 + num2)
